@@ -1,0 +1,844 @@
+{
+  "summary": {
+    "app_count": 100,
+    "categories": {
+      "CRM and Sales": 10,
+      "Support and Helpdesk": 10,
+      "Communications and Messaging": 10,
+      "Marketing, Ads, Email and Social": 10,
+      "Ecommerce": 10,
+      "Data, SEO and Scraping": 10,
+      "Developer, Infra and Data platforms": 10,
+      "Productivity and Project Management": 10,
+      "Finance and Fintech": 10,
+      "AI, Research and Media-native": 10
+    },
+    "auth_distribution": {
+      "Token / custom": 49,
+      "API key / token": 48,
+      "OAuth2": 3
+    },
+    "access_distribution": {
+      "mixed": 45,
+      "self-serve or trialable": 49,
+      "gated or partner-sensitive": 6
+    },
+    "easy_wins": [
+      "DealCloud",
+      "Lark (Larksuite)",
+      "Vonage",
+      "Meta Ads",
+      "Mailchimp",
+      "Klaviyo",
+      "Pinterest",
+      "Shopify",
+      "WooCommerce",
+      "BigCommerce",
+      "Salesforce Commerce Cloud",
+      "Magento (Adobe Commerce)"
+    ],
+    "headline": "OAuth2 and API-key models dominate; SaaS apps are mostly self-serve, while finance and advertising products skew gated."
+  },
+  "apps": [
+    {
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "hint": "salesforce.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "hint": "hubspot.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Pipedrive",
+      "category": "CRM and Sales",
+      "hint": "pipedrive.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "hint": "attio.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "hint": "twenty.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Podio",
+      "category": "CRM and Sales",
+      "hint": "podio.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "hint": "zoho.com/crm",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Close",
+      "category": "CRM and Sales",
+      "hint": "close.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Copper",
+      "category": "CRM and Sales",
+      "hint": "copper.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "hint": "api.docs.dealcloud.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "hint": "zendesk.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Intercom",
+      "category": "Support and Helpdesk",
+      "hint": "intercom.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "hint": "freshdesk.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Front",
+      "category": "Support and Helpdesk",
+      "hint": "front.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Pylon",
+      "category": "Support and Helpdesk",
+      "hint": "usepylon.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "LiveAgent",
+      "category": "Support and Helpdesk",
+      "hint": "liveagent.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "hint": "plain.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Help Scout",
+      "category": "Support and Helpdesk",
+      "hint": "helpscout.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Gorgias",
+      "category": "Support and Helpdesk",
+      "hint": "gorgias.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "hint": "gladly.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "hint": "slack.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "hint": "twilio.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "hint": "zoho.com/cliq",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Lark (Larksuite)",
+      "category": "Communications and Messaging",
+      "hint": "open.larksuite.com",
+      "auth": "Token / custom",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Pumble",
+      "category": "Communications and Messaging",
+      "hint": "pumble.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Discord",
+      "category": "Communications and Messaging",
+      "hint": "discord.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "hint": "core.telegram.org",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "hint": "developers.facebook.com/docs/whatsapp",
+      "auth": "OAuth2",
+      "access": "gated or partner-sensitive",
+      "buildability": "high"
+    },
+    {
+      "name": "Aircall",
+      "category": "Communications and Messaging",
+      "hint": "aircall.io",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Vonage",
+      "category": "Communications and Messaging",
+      "hint": "developer.vonage.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.google.com/google-ads",
+      "auth": "API key / token",
+      "access": "gated or partner-sensitive",
+      "buildability": "medium"
+    },
+    {
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.facebook.com/docs/marketing-apis",
+      "auth": "OAuth2",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "LinkedIn Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "learn.microsoft.com/linkedin/marketing",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "GoHighLevel",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "highlevel.stoplight.io",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "mailchimp.com/developer",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.klaviyo.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "systeme.io",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "systeme.io",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Pinterest",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.pinterest.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Threads (Meta)",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "developers.facebook.com/docs/threads",
+      "auth": "OAuth2",
+      "access": "gated or partner-sensitive",
+      "buildability": "medium"
+    },
+    {
+      "name": "SendGrid",
+      "category": "Marketing, Ads, Email and Social",
+      "hint": "sendgrid.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "hint": "shopify.dev",
+      "auth": "Token / custom",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "WooCommerce",
+      "category": "Ecommerce",
+      "hint": "woocommerce.com/document/woocommerce-rest-api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "BigCommerce",
+      "category": "Ecommerce",
+      "hint": "developer.bigcommerce.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "hint": "developer.salesforce.com/docs/commerce",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Magento (Adobe Commerce)",
+      "category": "Ecommerce",
+      "hint": "developer.adobe.com/commerce",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Squarespace",
+      "category": "Ecommerce",
+      "hint": "developers.squarespace.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Ecwid",
+      "category": "Ecommerce",
+      "hint": "api-docs.ecwid.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Gumroad",
+      "category": "Ecommerce",
+      "hint": "gumroad.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "hint": "developer-docs.amazon.com/sp-api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "hint": "fanbasis.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.dataforseo.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "SE Ranking",
+      "category": "Data, SEO and Scraping",
+      "hint": "seranking.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "hint": "ahrefs.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "MrScraper",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.mrscraper.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "hint": "docs.apify.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "hint": "firecrawl.dev",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Bright Data",
+      "category": "Data, SEO and Scraping",
+      "hint": "brightdata.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "hint": "github.com/sherlock-project/sherlock",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Waterfall.io",
+      "category": "Data, SEO and Scraping",
+      "hint": "waterfall.io",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "Clay",
+      "category": "Data, SEO and Scraping",
+      "hint": "clay.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "medium"
+    },
+    {
+      "name": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.github.com/rest",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Vercel",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "vercel.com/docs/rest-api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Netlify",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.netlify.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "developers.cloudflare.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "supabase.com/docs",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Neo4j",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "neo4j.com/docs/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.snowflake.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "mongodb.com/docs/atlas/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Datadog",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.datadoghq.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Sentry",
+      "category": "Developer, Infra and Data platforms",
+      "hint": "docs.sentry.io/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "hint": "developers.notion.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Airtable",
+      "category": "Productivity and Project Management",
+      "hint": "airtable.com/developers",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "hint": "developers.linear.app",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Jira",
+      "category": "Productivity and Project Management",
+      "hint": "developer.atlassian.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Asana",
+      "category": "Productivity and Project Management",
+      "hint": "developers.asana.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Monday.com",
+      "category": "Productivity and Project Management",
+      "hint": "developer.monday.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "ClickUp",
+      "category": "Productivity and Project Management",
+      "hint": "clickup.com/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Coda",
+      "category": "Productivity and Project Management",
+      "hint": "coda.io/developers",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "hint": "smartsheet.com/developers",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Harvest",
+      "category": "Productivity and Project Management",
+      "hint": "harvestapp.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "hint": "stripe.com/docs/api",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Plaid",
+      "category": "Finance and Fintech",
+      "hint": "plaid.com/docs",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Binance",
+      "category": "Finance and Fintech",
+      "hint": "binance-docs.github.io",
+      "auth": "API key / token",
+      "access": "gated or partner-sensitive",
+      "buildability": "medium"
+    },
+    {
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "hint": "paygent",
+      "auth": "Token / custom",
+      "access": "gated or partner-sensitive",
+      "buildability": "medium"
+    },
+    {
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "hint": "ipayx.ai/docs",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "QuickBooks",
+      "category": "Finance and Fintech",
+      "hint": "developer.intuit.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Xero",
+      "category": "Finance and Fintech",
+      "hint": "developer.xero.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Brex",
+      "category": "Finance and Fintech",
+      "hint": "developer.brex.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "Ramp",
+      "category": "Finance and Fintech",
+      "hint": "docs.ramp.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "medium"
+    },
+    {
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "hint": "pitchbook.com",
+      "auth": "Token / custom",
+      "access": "gated or partner-sensitive",
+      "buildability": "medium"
+    },
+    {
+      "name": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "hint": "cloud.google.com/gemini",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "hint": "help.otter.ai",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Fathom",
+      "category": "AI, Research and Media-native",
+      "hint": "fathom.video",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Consensus",
+      "category": "AI, Research and Media-native",
+      "hint": "consensus.app",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Reducto",
+      "category": "AI, Research and Media-native",
+      "hint": "reducto.ai",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Devin",
+      "category": "AI, Research and Media-native",
+      "hint": "docs.devin.ai",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "higgsfield",
+      "category": "AI, Research and Media-native",
+      "hint": "higgsfield.ai/cli",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "hint": "github.com/mermaid-js/mermaid-cli",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    },
+    {
+      "name": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "hint": "transcriptapi.com",
+      "auth": "API key / token",
+      "access": "self-serve or trialable",
+      "buildability": "high"
+    },
+    {
+      "name": "Grain",
+      "category": "AI, Research and Media-native",
+      "hint": "grain.com",
+      "auth": "Token / custom",
+      "access": "mixed",
+      "buildability": "high"
+    }
+  ]
+}
